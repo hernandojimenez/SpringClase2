@@ -4,11 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class HabitacionDTO {
+public class AlumnoDTO {
     private String nombre;
-    private double ancho;
-    private double largo;
+    private List<AsignaturaDTO> asignaturas;
 }

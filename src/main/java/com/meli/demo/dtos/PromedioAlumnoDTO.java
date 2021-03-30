@@ -5,10 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class HabitacionDTO {
-    private String nombre;
-    private double ancho;
-    private double largo;
+@NoArgsConstructor
+public class PromedioAlumnoDTO {
+    private AlumnoDTO alumno;
+    private double promedio;
+    private String mesage;
 }

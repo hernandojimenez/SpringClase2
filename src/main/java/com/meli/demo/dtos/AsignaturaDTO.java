@@ -5,10 +5,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class HabitacionDTO {
+@NoArgsConstructor
+public class AsignaturaDTO {
     private String nombre;
-    private double ancho;
-    private double largo;
+    private double nota;
 }
